@@ -1,0 +1,62 @@
+<html>
+
+
+
+<style>
+
+body{
+
+background-color: black;
+color: white;
+padding: 50px;
+text-align: center;
+
+}
+
+
+</style>
+<body>
+
+<h2> Fill it    </h2><br> <br>
+
+
+
+
+
+
+
+<form action="pass_data.php" method="POST">
+
+
+name <input type="text" name="name"> <br> <br>
+Id <input type="number" name="id" required> <br> <br>
+
+Gender <input type="radio" name="gender" value="male"> male
+
+ <input type="radio" name="gender" value="female" > female <br> <br>
+ Dept: <select name="dpt" required>
+ <option value="cse" >  CSE </option>
+ <option value="bba" > BBA  </option>
+ <option value="eee" >  EEE </option> 
+ </select>:
+ 
+
+ <br> <br>
+ 
+  comment bellow <br> <br><textarea name= "text"cols="30" rows ="10" align="center">
+ 
+ </textarea><br> <br>
+  <input type="submit" name="register">
+
+</form>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
